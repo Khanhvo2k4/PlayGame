@@ -1,0 +1,3 @@
+# Build-time: header + CMake config cho pybind11::embed (ADR-0003).
+# LUU Y: Runtime Python trong game CHI dung thu vien chuan (stdlib), khong import goi ngoai.
+pybind11==2.12.0

@@ -1,0 +1,3 @@
+# Cong cu pipeline tai nguyen / du lieu (khong ship vao game)
+pillow==10.4.0       # tools/convert_webp_to_png.py, kiem tra kich thuoc sprite
+jsonschema==4.23.0   # tools/validate_data.py: validate data/*.json theo data/schemas/

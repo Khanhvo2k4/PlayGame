@@ -1,0 +1,52 @@
+# ===== Build output (CMake / Visual Studio) =====
+build/
+build-*/
+out/
+dist/
+CMakeUserPresets.json
+.vs/
+*.vcxproj.user
+*.sln.docstates
+*.pdb
+*.ilk
+*.obj
+*.exe
+*.dll
+*.lib
+*.exp
+
+# ===== vcpkg (manifest mode) =====
+vcpkg_installed/
+
+# ===== Python =====
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ===== Runtime / user data (KHÔNG commit save của người chơi) =====
+saves/
+*.log
+*.tmp
+*.bak
+
+# ===== Secrets (game hiện không dùng, giữ theo chuẩn) =====
+.env
+*.pem
+*.key
+*.p12
+*.keystore
+credentials*.json
+
+# ===== Tiled / editor =====
+*.tiled-session
+
+# ===== OS / IDE =====
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "dino-survival",
+  "version": "0.1.0",
+  "description": "Ky Nguyen Sinh Ton (APEX: Evolve or Die) - C++17 SDL2 + Python 3.11 embedded",
+  "dependencies": [
+    "sdl2",
+    "sdl2-image",
+    "sdl2-ttf",
+    "sdl2-mixer",
+    "tmxlite",
+    "nlohmann-json"
+  ],
+  "features": {
+    "tests": {
+      "description": "Unit test C++ (Catch2 v3) cho AABB, A*, Lava, Save",
+      "dependencies": [ "catch2" ]
+    }
+  }
+}
